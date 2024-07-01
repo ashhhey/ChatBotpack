@@ -17,21 +17,21 @@
   },
   "commandDisabled": [],
   "eventDisabled": [],
-  "EMAIL": "cliffvincenttorrevillas@gmail.com",
-  "BOTOWNER": "𝘾𝙇𝙄𝙁𝙁 𝙑𝙄𝙉𝘾𝙀𝙉𝙏",
-  "OWNERLINK": "https://www.facebook.com/swordigo.swordslush",
+  "EMAIL": "",
+  "BOTOWNER": "Markdevs69",
+  "OWNERLINK": "www.facebook.com/mark.dev69",
   "PASSWORD": "pogicgena",
   "OTPKEY": "secret",
-  "BOTNAME": "𝙔𝙖𝙯𝙠𝙮𝙗𝙤𝙩",
-  "PREFIX": "#",
+  "BOTNAME": "Devs69",
+  "PREFIX": ">",
   "ADMINBOT": [
-    "100053549552408",
+    "100027399343135",
     ""
   ],
   "DESIGN": {
-    "Title": "CLIFFBOT",
-    "Theme": "Blue",
-    "Admin": "Cliff",
+    "Title": "Markdevs",
+    "Theme": "Sunlight",
+    "Admin": "Mark Hitsuraan",
     "Setup": {
       "Info": "Design your own custom terminal Titlebar for the title and must contain no numbers",
       "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Orange, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, Purple, Rainbow, and Hacker themes to enhance your terminal logs."
