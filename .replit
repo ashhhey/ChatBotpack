@@ -1,12 +1,13 @@
 hidden = [".config", "package-lock.json", ".gitignore"]
 run = "node index.js"
+modules = ["nodejs-20", "web", "nix"]
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
 message = "We see that you are using require(...) inside your code. We currently do not support this syntax. Please use 'import' instead when using external modules. (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)"
 
 [nix]
-channel = "stable-22_11"
+channel = "stable-23_11"
 
 [env]
 XDG_CONFIG_HOME = "$REPL_HOME/.config"
@@ -81,3 +82,7 @@ start = "typescript-language-server --stdio"
 run = ["sh", "-c", "node index.js"]
 deploymentTarget = "cloudrun"
 ignorePorts = false
+
+[[ports]]
+localPort = 3000
+externalPort = 80
